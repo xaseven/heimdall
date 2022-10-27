@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xaseven/heimdall/v8"
+	"github.com/xaseven/heimdall"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

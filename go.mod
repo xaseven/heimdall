@@ -1,4 +1,4 @@
-module github.com/xaseven/heimdall/v8
+module github.com/xaseven/heimdall
 
 go 1.14
 

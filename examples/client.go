@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xaseven/heimdall/v8"
-	"github.com/xaseven/heimdall/v8/httpclient"
-	"github.com/xaseven/heimdall/v8/hystrix"
+	"github.com/xaseven/heimdall"
+	"github.com/xaseven/heimdall/httpclient"
+	"github.com/xaseven/heimdall/hystrix"
 	"github.com/pkg/errors"
 )
 

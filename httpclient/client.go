@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xaseven/heimdall/v8"
+	"github.com/xaseven/heimdall"
 	"github.com/gojek/valkyrie"
 	"github.com/pkg/errors"
 )

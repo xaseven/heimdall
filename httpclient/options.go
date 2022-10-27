@@ -3,7 +3,7 @@ package httpclient
 import (
 	"time"
 
-	"github.com/xaseven/heimdall/v8"
+	"github.com/xaseven/heimdall"
 )
 
 // Option represents the client options
