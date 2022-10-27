@@ -68,6 +68,19 @@ func (c *Client) Get(url string, headers http.Header) (*http.Response, error) {
 	return c.Do(request)
 }
 
+//by seven
+func (c *Client) BodyGet(url string, headers http.Header, body io.Reader) (*http.Response, error) {
+	var response *http.Response
+	request, err := http.NewRequest(http.MethodGet, url, body)
+	if err != nil {
+		return response, errors.Wrap(err, "GET - request creation failed")
+	}
+
+	request.Header = headers
+
+	return c.Do(request)
+}
+
 // Post makes a HTTP POST request to provided URL and requestBody
 func (c *Client) Post(url string, body io.Reader, headers http.Header) (*http.Response, error) {
 	var response *http.Response
