@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/afex/hystrix-go/plugins"
-	"github.com/gojek/heimdall/v7"
-	"github.com/gojek/heimdall/v7/httpclient"
+	"github.com/xaseven/heimdall/v8"
+	"github.com/xaseven/heimdall/v8/httpclient"
 )
 
 // Option represents the hystrix client options
